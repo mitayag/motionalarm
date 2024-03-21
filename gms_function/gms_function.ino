@@ -42,7 +42,7 @@ void SendMessage() {
   sim.println("AT+CMGF=1\r"); // Set SMS mode to text
   delay(100);
   //sim.println("AT+CMGS=\"" + number + "\""); // Set the recipient's number
-  sim.println("AT+CMGS=\"+639358422505\"\r");
+  sim.println("AT+CMGS=\"+639978264419\"\r");
   delay(100);
   String SMS = "Hello, how are you? Greetings from miliohm.com admin";
   sim.println(SMS);
